@@ -5,7 +5,7 @@ export default function Projects() {
   const { t } = useTranslation();
 
   return (
-    <div>
+    <div className="header">
       <HeroCom
         headerText="PROJECTS"
         text="Here’s a selection of my projects, where I’ve combined design and code to create functional and engaging digital solutions."

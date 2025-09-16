@@ -5,7 +5,7 @@ export default function Home() {
   const { t } = useTranslation();
 
   return (
-    <div>
+    <div className="header">
       <HeroCom
         enableButton={true}
         headerText={t("FrontPageHeader")}
