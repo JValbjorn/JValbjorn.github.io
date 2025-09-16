@@ -1,7 +1,16 @@
+import { useTranslation } from "react-i18next";
+import HeroCom from "../components/HeroCom";
+
 export default function Projects() {
+  const { t } = useTranslation();
+
   return (
     <div>
-      <h1>Our Projects</h1>
-      <p>Here are some of the projects we have worked on recently.</p>
+      <HeroCom
+        headerText="PROJECTS"
+        text="Here’s a selection of my projects, where I’ve combined design and code to create functional and engaging digital solutions."
+        imageUrl="../img/heropage/projects-profile-img.png"
+      />
     </div>
-  );}
+  );
+}
