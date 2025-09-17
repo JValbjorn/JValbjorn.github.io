@@ -16,7 +16,9 @@ export default function HeroCom({
         <article>
           <h1>{headerText}</h1>
           <p>{text}</p>
-          {enableButton && <button>{buttonText}</button>}
+          <div className="button-container">
+            {enableButton && <button>{buttonText}</button>}
+          </div>
         </article>
       </section>
     </>
