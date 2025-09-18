@@ -8,50 +8,190 @@ export default function Home() {
 
   return (
     <>
-      <div className="header">
+      <div className="header linebreaks">
         <HeroCom
           enableButton={true}
-          headerText={t("FrontPageHeader")}
-          text="Hi I’m Julie, I’m a multimedia designer with a knack for bringing pixels to life on the frontend. Scroll down, click around, and check me out."
+          headerText={t("HomeHeader")}
+          text= {t("HomeTeaser")} 
           imageUrl="../img/heropage/home-profile-img.png"
-          buttonText="LET'S GET IN TOUCH!"
+          buttonText={t("InTouch")}
+          linkDestination="/Contact"
         />
       </div>
+      <div className="background-content">
+        <section className="content">
+          <div className="img-container">
+            <img
+              className="bh"
+              src="../../public/img/blue-img/formed-images-bh.png"
+              alt=""
+            />
+          </div>
+          <div className="text-container">
+            <h2>{t("ThiIs")}</h2>
+            <div className="text-content linebreaks">
+              <p>
+                {t("ThisIsText")}
+              </p>
+              <Link to="/about">{t("MoreDetails")}</Link>
+            </div>
+          </div>
+        </section>
 
-      <section>
-        <h2>this is julie</h2>
-        <img src="" alt="" />
-        <p>
-          Hello are you looking for a frond end dev with a knack for designing?
-          - you have come to the right place. I am Julie and i might just be
-          what you are looking for. Through my study's i have gained many nice
-          tools and skills, but i am always up for learning more.
-        </p>
-        <Link to="/contact">Wanna know more</Link>
-      </section>
+        <section className="skill-content ">
+          <div className="skills-header">
+            <h2>{t("Toolbox")}</h2>
+          </div>
 
-      <section>
-        <h2>my toolbox</h2>
-        <img src="../../public/img/rips/top-rip.png" alt="" />
-        {/* loop */}
-        <img src="../../public/img/rips/bottom-rip.png" alt="" />
-        <button>SEE ALL SKILS</button>
-      </section>
+          <div className=" skill-container">
+            <img
+              className="rips top"
+              src="../../public/img/rips/top-rip.png"
+              alt=""
+            />
+            <div className="skill-scroll">
+              <div className=" marquee-container">
+                <div className="marquee">
+                  <div className="skill">
+                    <img src="../../public/img/skills/html5.svg" alt="" />
+                    <p>HTML5</p>
+                  </div>
+                  <div className="skill">
+                    <img src="../../public/img/skills/ae.png" alt="" />
+                    <p>AFTEREFFECTS</p>
+                  </div>
+                  <div className="skill">
+                    <img src="../../public/img/skills/css.svg" alt="" />
+                    <p>CCS</p>
+                  </div>
+                  <div className="skill">
+                    <img src="../../public/img/skills/dn.png" alt="" />
+                    <p>DIMENSION</p>
+                  </div>
+                  <div className="skill">
+                    <img src="../../public/img/skills/figma.svg" alt="" />
+                    <p>FIGMA</p>
+                  </div>
+                  <div className="skill">
+                    <img src="../../public/img/skills/ai.png" alt="" />
+                    <p>ILLUSTRATOR</p>
+                  </div>
+                  <div className="skill">
+                    <img src="../../public/img/skills/github.svg" alt="" />
+                    <p>GITHUB</p>
+                  </div>
+                  <div className="skill">
+                    <img src="../../public/img/skills/ps.png" alt="" />
+                    <p>PHOTOSHOP</p>
+                  </div>
+                  <div className="skill">
+                    <img src="../../public/img/skills/js.svg" alt="" />
+                    <p>JAVASCRIPT</p>
+                  </div>
+                  <div className="skill">
+                    <img src="../../public/img/skills/ts.png" alt="" />
+                    <p>TYPESCRIPT</p>
+                  </div>
+                  <div className="skill">
+                    <img src="../../public/img/skills/react.svg" alt="" />
+                    <p>REACT</p>
+                  </div>
+                </div>
 
-      <section>
-        <h2>TAKE A LOOK AT WHAT I’VE BEEN WORKING ON!</h2>
-        <a href="">
-          <img src="" alt="" />
-        </a>
-        <a href="">
-          <img src="" alt="" />
-        </a>
-        <a href="">
-          <img src="" alt="" />
-        </a>
-        <button>SEE ALL PROJECTS</button>
-      </section>
+                <div className="marquee">
+                  <div className="skill">
+                    <img src="../../public/img/skills/html5.svg" alt="" />
+                    <p>HTML5</p>
+                  </div>
+                  <div className="skill">
+                    <img src="../../public/img/skills/ae.png" alt="" />
+                    <p>AFTEREFFECTS</p>
+                  </div>
+                  <div className="skill">
+                    <img src="../../public/img/skills/css.svg" alt="" />
+                    <p>CCS</p>
+                  </div>
+                  <div className="skill">
+                    <img src="../../public/img/skills/dn.png" alt="" />
+                    <p>DIMENSION</p>
+                  </div>
+                  <div className="skill">
+                    <img src="../../public/img/skills/figma.svg" alt="" />
+                    <p>FIGMA</p>
+                  </div>
+                  <div className="skill">
+                    <img src="../../public/img/skills/ai.png" alt="" />
+                    <p>ILLUSTRATOR</p>
+                  </div>
+                  <div className="skill">
+                    <img src="../../public/img/skills/github.svg" alt="" />
+                    <p>GITHUB</p>
+                  </div>
+                  <div className="skill">
+                    <img src="../../public/img/skills/ps.png" alt="" />
+                    <p>PHOTOSHOP</p>
+                  </div>
+                  <div className="skill">
+                    <img src="../../public/img/skills/js.svg" alt="" />
+                    <p>JAVASCRIPT</p>
+                  </div>
+                  <div className="skill">
+                    <img src="../../public/img/skills/ts.png" alt="" />
+                    <p>TYPESCRIPT</p>
+                  </div>
+                  <div className="skill">
+                    <img src="../../public/img/skills/react.svg" alt="" />
+                    <p>REACT</p>
+                  </div>
+                </div>
+              </div>
+            </div>
 
+            <img
+              className="rips bottom"
+              src="../../public/img/rips/bottom-rip.png"
+              alt=""
+            />
+          </div>
+          <Link className="btn" to="/about">
+            {t("AllSkils")}
+          </Link>
+        </section>
+
+        <section className="content-project">
+          <h2>{t("WorkingOn")}</h2>
+          <div className="project-content">
+            <div className="project-teaser">
+              <Link to="/about">
+                <img src="../../public/img/projects/coilbot.png" alt="" />
+              </Link>
+              <p>{t("Coilbot")}</p>
+            </div>
+            <div className="project-teaser">
+              <Link to="/about">
+                <img
+                  src="../../public/img/projects/moderkagens-mission.png"
+                  alt=""
+                />
+              </Link>
+              <p>{t("ModerkagensMissionTitle")}</p>
+            </div>
+            <div className="project-teaser">
+              <Link to="/about">
+                <img
+                  src="../../public/img/projects/zero-buzz-brew.png"
+                  alt=""
+                />
+              </Link>
+
+              <p>{t("ZeroBuzzBrewTitle")}</p>
+            </div>
+          </div>
+          <Link className="btn" to="/about">
+           {t("AllProjects")}
+          </Link>
+        </section>
+      </div>
       <Footer />
     </>
   );

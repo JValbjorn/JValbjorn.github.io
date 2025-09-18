@@ -1,6 +1,57 @@
 {
-  "Welcome": "Velkommen til vores hjemmeside",
-  "FrontPage": {
-    "FrontPageHeader": "Blah"
-  }
+  "CoilbotTitle": "Coilbot",
+  "CoilBotDescription": "Dette er Coilbot. Han er et lille sjovt spil, lavet til vores studietur til Holland. Vi fik til opgave at skabe en sjov og interaktiv oplevelse, som de andre studerende kunne prøve.\n\nCoilbot optræder, tager forklædning på og giver dig en række sjove opgaver at løse.\n(Nogle af opgaverne kræver rigtige rekvisitter for at kunne gennemføres.) Vil du kunne besejre ham ved at fuldføre nok opgaver? Fejler du for mange, vinder Coilbot.\n\nLavet i samarbejde med medstuderende.\n\nDette projekt er lavet med:\nHTML, CSS, JavaScript",
+  "ModerkagensMissionTitle": "Moderkagens mission",
+  "ModerkagensMissionDescription": "Moderkagens mission var mit 2.-semester eksamensprojekt. Det er en gamificering af de vigtigste funktioner, som moderkagen udfører for at beskytte barnet.\n\nProjektet blev lavet til STENOs nye udstilling “Den oversete krop”. Vi skulle gøre et svært emne sjovt og engagerende at lære om for en yngre målgruppe.\n\nVi opnåede dette ved at gamificere emnet, så vi kunne møde målgruppen dér, hvor deres interesser var, når de besøgte et museum. Vi lagde også vægt på, at det ikke måtte blive for grafisk eller skræmmende for de yngre besøgende – derfor valgte vi en animeret stil.\n\nLavet i samarbejde med medstuderende og STENO.\n\nProjektet er lavet til en storskærm. For at se det korrekt anbefaler jeg at bruge Inspect (F12) og sætte opløsningen til 1000x1600.\n\nDette projekt er lavet med:\nHTML, CSS, JavaScript",
+  "ZeroBuzzBrewTitle": "Zero buzz brew",
+  "ZeroBuzzBrewDescription": "I dette projekt havde jeg fokus på design, 3D-modeller af dåserne og animation, da det var mine hovedopgaver.\n\nVi skulle designe et nyt brand og en variant af en alkoholfri øl. Vi udviklede en række frugtsmage, hvor hver variant fik sine egne unikke farvekombinationer, som stadig repræsenterede smagen.\n\nFor at få produktet til at virke mere virkeligt på hjemmesiden, arbejdede jeg i Adobe Dimension for at skabe 3D-modeller af, hvordan dåserne kunne se ud færdige. Jeg lavede også en lille animation til hero-sektionen, som viser alle smagsvarianterne.\n\nLavet i samarbejde med medstuderende.\n\nDette projekt er lavet med:\nHTML, CSS, JavaScript",
+  "MusicSyncTitle": "Musik sync",
+  "MusicSyncDescription": "// ARBEJDE I GANG //\n\nDette er et lille passionsprojekt, jeg laver i min fritid. Formålet er at kunne synkronisere musik fra Spotify ind i et musikbibliotek. Her kan vi organisere og kategorisere musikken og derefter overføre den tilbage til Spotify som playlister, når vi skal undervise i dans.\n\nLavet i samarbejde med Oliver (GitHub: oliv0533).\n\nDette projekt er lavet med:\nTypeScript, CSS",
+  "SideLink": "Vil du se det fulde",
+  "Project": "PROJEKT",
+  "Github": "eller tjekke koden ud på",
+  
+  "Home": "HJEM",
+  "AboutMe": "OM MIG",
+  "Projects": "PROJEKTER",
+  "Contact": "KONTAKT",
+  
+  "Footer": "Jeg glæder mig til at høre fra dig venligsT tag",
+  "FooterLink": "Kontakt til mig!",
+  "Rights": "© 2025 Julie Valbjørn.\nAlle rettigheder forbeholdes.",
+
+  "ProjectTeaser": "Her finder du et udvalg af mine projekter, hvor jeg har forenet design og kode til at skabe digitale løsninger, der både fungerer og fanger.",
+  "ViewProjects": "Læs om mine Projekter",
+  "CoilbotTeaser": "Dette er Coilbot. Han er et lille sjovt spil, lavet til vores studietur til Holland. Vi fik til opgave at skabe en sjov og interaktiv oplevelse, som de andre studerende kunne prøve.",
+  "ModerkagensMissionTeaser": "Moderkagens mission var mit 2.-semester eksamensprojekt. Det er en gamificering af de vigtigste funktioner, som moderkagen udfører for at beskytte barnet.",
+  "ZeroBuzzBrewTeaser": "I dette projekt havde jeg fokus på design, 3D-modeller af dåserne og animation, da det var mine hovedopgaver.",
+  "MusicSyncTeaser": "// ARBEJDE I GANG //\n\nDette er et lille passionsprojekt, jeg laver i min fritid. Formålet er at kunne synkronisere musik fra Spotify ind i et musikbibliotek. Her kan vi organisere og kategorisere musikken og derefter overføre den tilbage til Spotify som playlister, når vi skal undervise i dans.",
+  "MoreDetails": "Se flere detalijer",
+  "ComingSoon": "Flere projekter på vej",
+
+  "InTouch": "Hiv fat i mig",
+  "ContactText": "Jeg vil elske at høre fra dig! Ring eller send mig en mail,\nså svarer jeg så hurtigt, jeg kan.",
+
+  "AboutMeHeader": "Lær mig bedere at kende!",
+  "AboutMeTeaser": "Fortsæt med at læse for at opdage, hvem jeg er, hvordan jeg arbejder, hvad jeg kan – og hvad der optager mig, når jeg holder pause fra koden.",
+  "ABitAboutMe": "Kort om mig",
+  "ABitAboutMeText": "Mit navn er Julie Valbjørn, jeg er 22 år og bor i Aarhus, hvor jeg studerer Multimediedesign med fokus på frontend-udvikling.\n\nJeg elsker at kombinere kreativitet med struktur – at bringe design og kode sammen på måder, der både fungerer problemfrit og inspirerer visuelt.\n\nJeg er kendt for at være pålidelig, samarbejdende og hjælpsom, og jeg trives i teams, hvor idéer kan deles og udvikles.\n\nSamtidig er jeg både praktisk og entusiastisk, hvilket betyder, at jeg møder udfordringer med energi, mens jeg holder fokus på at finde de bedste løsninger i praksis.",
+
+  "Toolbox": "Min værktøjskasse",
+
+  "BeyondScreen":"Livet på den anden side af skærmen",
+  "Teaching": "Ud over mine studier er jeg passioneret omkring dans. Jeg nyder ikke kun Swing & Rock’n’Roll og West Coast Swing, men jeg underviser også i dans. Det har givet mig værdifuld erfaring i at kommunikere tydeligt, instruere og stå foran større grupper.",
+
+  "JoinYou": "Jeg håber på at jeg en dag kan blive en del af en virksomhed hvor jeg kan byde ind med mine kompetancer, dele et stort smil og fortsat udvikle mig professionalt",
+
+  "HomeHeader": "Design, der ikke kun ser godt ud\n– men også fungerer godt",
+  "HomeTeaser": "Hej, jeg er Julie. Som multimediedesigner elsker jeg at få pixels til at danse på frontend. Scroll videre, klik rundt – og se hvad jeg kan",
+  "ThiIs": "Julie her!",
+  "ThisIsText": "Hej! Leder du efter en frontend-udvikler med flair for design? Så er du kommet til det rette sted.\n\nJeg er Julie, og jeg kunne meget vel være, hvad du søger. Gennem mine studier har jeg tilegnet mig mange gode værktøjer og færdigheder, men jeg er altid klar på at lære mere.",
+  "AllSkils": "SE ALLE SKILLS",
+
+  "WorkingOn": "Se, hvad jeg har skabt!",
+  "AllProjects": "SEE ALL PROJEKTER"
+
 }
+

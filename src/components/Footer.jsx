@@ -1,6 +1,9 @@
+import { useTranslation } from "react-i18next";
 import { Link } from "react-router";
 
 export default function Footer() {
+const {t} = useTranslation();
+
   return (
     <footer>
       <div className="flower-container">
@@ -11,17 +14,15 @@ export default function Footer() {
         />
       </div>
       <article className="">
-        <h3>
-          I want to hear from you <br />
-          Please <Link to="/contact">contact me!</Link>
+        <h3 className="linebreaks">
+          {t("Footer")} <Link to="/contact">{t("FooterLink")}</Link>
         </h3>
-        <p>Julievalbjorn@live.dk</p>
+        <a className="mail linebreaks" href="mailto:Julievalbjorn@live.dk">Julievalbjorn@live.dk</a>
       </article>
 
       <article className="rights">
         <div className="social-links">
           <a href="">
-            {" "}
             <img
               className="social-links"
               src="../../public/img/logo/facebook.png"
@@ -29,7 +30,6 @@ export default function Footer() {
             />
           </a>
           <a href="">
-            {" "}
             <img
               className="social-links"
               src="../../public/img/logo/instagram.png"
@@ -45,9 +45,7 @@ export default function Footer() {
           </a>
         </div>
         <p>
-          © 2025 by Julie Valbjørn.
-          <br />
-           All rights reserved.
+          {t("Rights")}
         </p>
       </article>
     </footer>

@@ -1,4 +1,5 @@
 import { Link } from "react-router";
+import { useTranslation } from "react-i18next";
 
 export default function LeftProjectCard({
   imageUrl,
@@ -6,12 +7,30 @@ export default function LeftProjectCard({
   body,
   projectLink,
 }) {
+
+const { t } = useTranslation();
+
   return (
-    <section >
-      <h3>{header}</h3>
-      <p>{body}</p>
-      <Link to={projectLink}>More details</Link>
-      <img src={imageUrl} alt="" />
+    <section className="left-project-card">
+      <img
+        className="rips top"
+        src="../../public/img/rips/top-rip.png"
+        alt=""
+      />
+      <div className="card">
+        <div className="project-card-text">
+          <h3>{header}</h3>
+          <p>{body}</p>
+          <Link to={projectLink}>{t("MoreDetails")}</Link>
+        </div>
+
+        <img src={imageUrl} alt="" />
+      </div>
+      <img
+        className="rips bottom"
+        src="../../public/img/rips/bottom-rip.png"
+        alt=""
+      />
     </section>
   );
 }

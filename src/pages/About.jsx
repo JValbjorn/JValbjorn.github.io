@@ -9,53 +9,121 @@ export default function About() {
     <>
       <div className="header">
         <HeroCom
-          headerText="GET TO KNOW ME!"
-          text="Keep reading to find out who I am, how I work, what I’m good at – and what keeps me busy when I’m not coding."
+          headerText={t("AboutMeHeader")}
+          text={t("AboutMeTeaser")}
           imageUrl="../img/heropage/about-me-profile-img.png"
         />
       </div>
 
-      <section>
-        <h2>a bit about me</h2>
-        <p>
-          My name is Julie Valbjørn, I’m 22 years old and based in Aarhus, where
-          I study Multimedia Design with a focus on frontend development.
-        </p>
-        <p>
-          I love combining creativity with structure – bringing design and code
-          together in ways that both work seamlessly and inspire visually.
-        </p>
-        <p>
-          I’m known for being reliable, collaborative, and helpful, and I thrive
-          in team settings where ideas can be shared and developed.{" "}
-        </p>
-        <p>
-          At the same time, I’m both practical and enthusiastic, which means I
-          approach challenges with energy while staying focused on finding the
-          best solutions in practice.
-        </p>
-        <img src="" alt="" />
-      </section>
-      <section>
-        <h2>my toolbox</h2>
-        <img src="" alt="" />
-        /////////
-        <img src="" alt="" />
-      </section>
-      <section>
-        <h2>life beyond the screen</h2>
-        <img src="" alt="" />
-        <p>
-          Beyond my studies, I’m passionate about dance. I not only enjoy Swing
-          & Rock’n’Roll and West Coast Swing, but I also teach dance classes,
-          which has given me valuable experience in communicating clearly,
-          instructing, and standing confidently in front of larger groups.
-        </p>
-        <h3>
-          I aspire to join company where I can contribute my skills, spread
-          positive energy, and continue to grow professionally.
-        </h3>
-      </section>
+      <div className="background-content">
+        <section className="about-me-content"> 
+          <h2 className="linebreaks">{t("ABitAboutMe")}</h2>
+          <div className="text-container">
+             <div className="text-content linebreaks">
+              <p>
+                {t("ABitAboutMeText")}
+              </p>
+            </div>
+        
+          <div className="img-container">
+            <img
+              src="../../public/img/blue-img/formed-images-porto.png"
+              alt=""
+            />
+          </div>
+          </div>
+        </section>
+
+
+        <section className="skill-content ">
+          <div className="skills-header">
+            <h2>{t("Toolbox")}</h2>
+          </div>
+
+           <div className=" skill-container">
+            
+            <img
+              className="rips top"
+              src="../../public/img/rips/top-rip.png"
+              alt=""
+            />
+            <div className="skill-scroll">
+              <div className=" marquee-container">
+                <div className="still-skills">
+                  <div className="skill">
+                    <img src="../../public/img/skills/html5.svg" alt="" />
+                    <p>HTML5</p>
+                  </div>
+                  <div className="skill">
+                    <img src="../../public/img/skills/ae.png" alt="" />
+                    <p>AFTEREFFECTS</p>
+                  </div>
+                  <div className="skill">
+                    <img src="../../public/img/skills/css.svg" alt="" />
+                    <p>CCS</p>
+                  </div>
+                  <div className="skill">
+                    <img src="../../public/img/skills/dn.png" alt="" />
+                    <p>DIMENSION</p>
+                  </div>
+                  <div className="skill">
+                    <img src="../../public/img/skills/figma.svg" alt="" />
+                    <p>FIGMA</p>
+                  </div>
+                  <div className="skill">
+                    <img src="../../public/img/skills/ai.png" alt="" />
+                    <p>ILLUSTRATOR</p>
+                  </div>
+                  <div className="skill">
+                    <img src="../../public/img/skills/github.svg" alt="" />
+                    <p>GITHUB</p>
+                  </div>
+                  <div className="skill">
+                    <img src="../../public/img/skills/ps.png" alt="" />
+                    <p>PHOTOSHOP</p>
+                  </div>
+                  <div className="skill">
+                    <img src="../../public/img/skills/js.svg" alt="" />
+                    <p>JAVASCRIPT</p>
+                  </div>
+                  <div className="skill">
+                    <img src="../../public/img/skills/ts.png" alt="" />
+                    <p>TYPESCRIPT</p>
+                  </div>
+                  <div className="skill">
+                    <img src="../../public/img/skills/react.svg" alt="" />
+                    <p>REACT</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <img
+              className="rips bottom"
+              src="../../public/img/rips/bottom-rip.png"
+              alt=""
+            />
+          </div>
+        </section>
+        <section className="skill-content ">
+           <div className="skills-header">
+             <h2>{t("BeyondScreen")}</h2>
+          </div>
+         <div className="teaching">
+
+         
+          <img src="../../public/img/blue-img/formed-images-teaching.png" alt="" />
+          <p className="linebreaks">
+            {t("Teaching")}
+          </p>
+          </div>
+
+          <h3 className="join linebreaks">
+            {t("JoinYou")}
+          </h3>
+          
+        </section>
+      </div>
       <Footer />
     </>
   );
