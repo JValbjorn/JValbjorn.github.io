@@ -10,7 +10,7 @@ const {t} = useTranslation();
         <img
           className="flower"
           src="../../public/img/doodles/flower-doodle.png"
-          alt=""
+          alt="doodled flower"
         />
       </div>
       <article className="">
@@ -22,25 +22,25 @@ const {t} = useTranslation();
 
       <article className="rights">
         <div className="social-links">
-          <a href="">
+          <a href="https://www.facebook.com/julievalbjorn/">
             <img
               className="social-links"
               src="../../public/img/logo/facebook.png"
-              alt=""
+              alt="doodled Facebook icon"
             />
           </a>
-          <a href="">
+          <a href="https://www.instagram.com/_valbjorn_/">
             <img
               className="social-links"
               src="../../public/img/logo/instagram.png"
-              alt=""
+              alt="doodled Instergram icon"
             />
           </a>
-          <a href="">
+          <a href="https://www.linkedin.com/in/julie-v-15973b127/">
             <img
               className="social-links"
               src="../../public/img/logo/linkedin.png"
-              alt=""
+              alt="doodled Linkedin icon"
             />
           </a>
         </div>

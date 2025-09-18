@@ -4,7 +4,7 @@ const projectsData = [
     titleKey: "CoilbotTitle",
     descriptionKey: "CoilBotDescription",
     imageUrl: "../img/projects/coilbot.png",
-    githubUrl: "https://github.com/GiliamvanTol/COIL-Interactive-Experience",
+    githubUrl: "https://github.com/JValbjorn/COIL-Interactive-Experience",
     siteUrl: "https://jvalbjorn.github.io/COIL-Interactive-Experience/"
   },
   {
@@ -20,14 +20,14 @@ const projectsData = [
     titleKey: "ZeroBuzzBrewTitle",
     descriptionKey: "ZeroBuzzBrewDescription",
     imageUrl: "../img/projects/zero-buzz-brew.png",
-    githubUrl: "https://github.com/LasseBilgrav/zerobuzz",
+    githubUrl: "https://github.com/JValbjorn/zerobuzz",
     siteUrl: "zerobuzz-brew.jvalbjorn.dk"
   },
   {
     id: 3,
     titleKey: "MusicSyncTitle",
     descriptionKey: "MusicSyncDescription",
-    imageUrl: "",
+    imageUrl: "../img/projects/no-img-yet.png",
     githubUrl: "https://github.com/JValbjorn/music-sync",
     siteUrl: "https://jvalbjorn.github.io/music-sync/"
   },

@@ -35,14 +35,14 @@ export default function Projects() {
               body={t("ModerkagensMissionTeaser")}
               projectLink="/project/1"
             />
-            <LeftProjectCard
+            <LeftProjectCard className="project-img"
               imageUrl="../img/projects/zero-buzz-brew.png"
               header={t("ZeroBuzzBrewTitle")}
               body={t("ZeroBuzzBrewTeaser")}
               projectLink="/project/2"
             />
             <RightProjectCard
-              imageUrl="#"
+              imageUrl="../img/projects/no-img-yet.png"
               header={t("MusicSyncTitle")}
               body={t("MusicSyncTeaser")}
               projectLink="/project/3"
@@ -51,13 +51,13 @@ export default function Projects() {
               <img
                 className="rips top"
                 src="../../public/img/rips/top-rip.png"
-                alt=""
+                alt="paper riped top"
               />
               <h2 className="comming-soon">{t("ComingSoon")}</h2>
               <img
                 className="rips bottom"
                 src="../../public/img/rips/bottom-rip.png"
-                alt=""
+                alt="paper riped bottom"
               />
             </div>
           </div>

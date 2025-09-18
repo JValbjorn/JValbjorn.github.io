@@ -22,13 +22,16 @@ export default function ProjectDetail() {
               <p className="linebreaks">{t(descriptionKey)}</p>
             </div>
             <div className="img-side">
-            <img className="topic-img" src={imageUrl} alt="" />
+            <img className="topic-img project-img" src={imageUrl} alt="`a screenshot of page`" />
             <p>
               {t("SideLink")} <a href={siteUrl}>{t("Project")}</a>
             <br />
               {t("Github")} <a href={githubUrl}>GITHUB</a>
             </p>
-            <img src="../../public/img/doodles/doodles-pen.png" alt="" />
+            <div className="doodle-wrapper d6">
+              <img className="doodle" src="../../public/img/doodles/doodles-pen.png" alt="a small doodle of pen and ruler" />
+            </div>
+            
             </div>
           </div>
         </div>

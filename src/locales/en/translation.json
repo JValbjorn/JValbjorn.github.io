@@ -1,6 +1,6 @@
 {
   "Welcome": "Welcome to Our Website",
-  "FrontPageHeader": "DESIGNS THAT DON’T JUST LOOK GOOD - THEY WORK GOOD.",
+  "FrontPageHeader": "DESIGNS THAT DON’T JUST LOOK GOOD - THEY WORK GREAT.",
   "CoilbotTitle": "Coilbot",
   "CoilBotDescription": "This is Coilbot. He is a fun little game made for our student trip to the Netherlands. We were tasked with creating a fun interactive experience for the other students to try.\n\nCoilbot puts on a show, wears a disguise, and will give you a variety of fun tasks to complete. (Some of the tasks require real props to complete.) Will you manage to defeat him by completing enough tasks? Fail too many, and Coilbot will be victorious.\n\nMade in collaboration with classmates.\n\nThis project is made with:\nHTML, CSS, JavaScript",
   "ModerkagensMissionTitle": "Missions of the Placenta",
@@ -8,7 +8,7 @@
   "ZeroBuzzBrewTitle": "Zero Buzz Brew",
   "ZeroBuzzBrewDescription": "For this project, I focused on the design, 3D models of the cans, and the animation, since these were my main tasks.\nWe had to design a new brand and a variant of an alcohol-free beer. We came up with a range of fruity flavors, where each variant had its own unique color combinations that still represented the fruit flavors.\n\n To make the website feel like it was showcasing a real product, I explored Adobe Dimension to create 3D models of how the final cans would look. I also created a small animation for the hero section to show off all the flavors.\n\nMade in collaboration with classmates.\n\nThis project is made with:\nHTML, CSS, JavaScript",
   "MusicSyncTitle": "Music Sync",
-  "MusicSyncDescription": "//WORK IN PROGRESS//\n\nThis is a small pation project i am making in my spare time.\nIts purpose is to help easily syncronize music from Spotify onto a music labry.\nThere we can organize and categorize the music and transfer it back to Spotify in playlists when we need to teach dance classes.\n\nMade in collaboration with Oliver (github: oliv0533)\n\nThis project is made with: Typescript, CSS",
+  "MusicSyncDescription": "//WORK IN PROGRESS//\n\nThis is a small passion project I am making in my spare time.\nIts purpose is to help easily synchronize music from Spotify onto a music library.\nThere we can organize and categorize the music and transfer it back to Spotify in playlists when we need to teach dance classes.\n\nMade in collaboration with Oliver (github: oliv0533)\n\nThis project is made with: Typescript, CSS",
   "SideLink": "Want to view the full",
   "Project": "PROJECT",
   "Github": "or review the code on",
@@ -23,33 +23,33 @@
   "Rights": "© 2025 by Julie Valbjørn.\nAll rights reserved.",
 
    "ProjectTeaser": "Here’s a selection of my projects, where I’ve combined design and code to create functional and engaging digital solutions.",
-  "ViewProjects": "view my projects",
+  "ViewProjects": "my projects",
   "CoilbotTeaser": "This is Coilbot. He is a fun little game made for our student trip to the Netherlands. We were tasked with creating a fun interactive experience for the other students to try.",
   "ModerkagensMissionTeaser": "Missions of the Placenta was my 2nd-term exam project. It’s a gamification of the most important jobs the placenta does to keep the baby safe.",
   "ZeroBuzzBrewTeaser": "For this project, I focused on the design, 3D models of the cans, and the animation, since these were my main tasks.",
-  "MusicSyncTeaser": "//WORK IN PROGRESS//\n\nThis is a small pation project i am making in my spare time.\nIts purpose is to help easily syncronize music from Spotify onto a music labry.",
+  "MusicSyncTeaser": "//WORK IN PROGRESS//\n\nThis is a small pation project I am making in my spare time.\nIts purpose is to help easily syncronize music from Spotify onto a music labry.",
   "MoreDetails": "More details",
-  "Coming soon": "more projects coming soon",
+  "ComingSoon": "more projects coming soon",
 
-  "InTouch": "get in touch",
-  "ContactText": "I would love to hear from you please do call or shoot me a mail,\nthen i will get back to you as quick as possible!",
+  "InTouch": "GET IN TOUCH",
+  "ContactText": "I would love to hear from you please do call or shoot me a mail,\nthen I will get back to you as quick as possible!",
 
-  "AboutMeHeader": "LGET TO KNOW ME!",
+  "AboutMeHeader": "GET TO KNOW ME!",
   "AboutMeTeaser": "Keep reading to find out who I am, how I work, what I’m good at – and what keeps me busy when I’m not coding.",
   "ABitAboutMe": "a bit about me",
-  "ABitAboutMeText": "My name is Julie Valbjørn, I’m 22 years old and based in Aarhus, where I study Multimedia Design with a focus on frontend development.\nI love combining creativity with structure – bringing design and code together in ways that both work seamlessly and inspire visually.\nI’m known for being reliable, collaborative, and helpful, and I thrive in team settings where ideas can be shared and developed.\nAt the same time, I’m both practical and enthusiastic, which means I approach challenges with energy while staying focused on finding the best solutions in practice.",
+  "ABitAboutMeText": "My name is Julie Valbjørn, I’m 22 years old and based in Aarhus, where I study Multimedia Design with a focus on frontend development.\n\nI love combining creativity with structure – bringing design and code together in ways that both work seamlessly and inspire visually.\n\nI’m known for being reliable, collaborative, and helpful, and I thrive in team settings where ideas can be shared and developed.\n\nAt the same time, I’m both practical and enthusiastic, which means I approach challenges with energy while staying focused on finding the best solutions in practice.",
 
   "Toolbox": "My toolbox",
 
   "BeyondScreen": "life beyond the screen",
   "Teaching": "Beyond my studies, I’m passionate about dance. I not only enjoy Swing & Rock’n’Roll and West Coast Swing, but I also teach dance classes, which has given me valuable experience in communicating clearly, instructing, and standing confidently in front of larger groups.",
 
-  "JoinYou": "I aspire to join company where I can contribute my skills, spread positive energy, and continue to grow professionally",
+  "JoinYou": "I aspire to join a company where I can contribute, spread positive energy, and continue to grow professionally",
 
-  "HomeHeader": "DESIGNS THAT DON’T JUST LOOK\nGOOD - THEY WORK GOOD",
+  "HomeHeader": "DESIGNS THAT DON’T JUST LOOK\nGOOD - THEY WORK GREAT",
   "HomeTeaser": "Hi I’m Julie, I’m a multimedia designer with a knack for bringing pixels to life on the frontend. Scroll down, click around, and check me out",
   "ThiIs": "this is julie",
-  "ThisIsText": "Hello are you looking for a frond end dev with a knack for designing? - you have come to the right place.\n\nI am Julie and i might just be what you are looking for. Through my study's i have gained many nice tools and skills, but i am always up for learning more.",
+  "ThisIsText": "Hello! Are you looking for a frontend dev with a knack for design? - You have come to the right place.\n\nI am Julie and I might just be what you are looking for. Through my studies I have gained many nice tools and skills, but I am always up for learning more.",
   "AllSkils": "SEE ALL SKILLS",
 
   "WorkingOn": "TAKE A LOOK AT WHAT I’VE BEEN WORKING ON!",

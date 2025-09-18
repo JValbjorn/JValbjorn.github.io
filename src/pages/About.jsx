@@ -45,7 +45,7 @@ export default function About() {
             <img
               className="rips top"
               src="../../public/img/rips/top-rip.png"
-              alt=""
+              alt="riped paper top"
             />
             <div className="skill-scroll">
               <div className=" marquee-container">
@@ -101,7 +101,7 @@ export default function About() {
             <img
               className="rips bottom"
               src="../../public/img/rips/bottom-rip.png"
-              alt=""
+              alt="riped paper bottom"
             />
           </div>
         </section>
@@ -112,7 +112,7 @@ export default function About() {
          <div className="teaching">
 
          
-          <img src="../../public/img/blue-img/formed-images-teaching.png" alt="" />
+          <img src="../../public/img/blue-img/formed-images-teaching.png" alt="credit to instagram: shoebox.pink" />
           <p className="linebreaks">
             {t("Teaching")}
           </p>

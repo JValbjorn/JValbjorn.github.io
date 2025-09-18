@@ -16,7 +16,7 @@ export default function RightProjectCard({
         <img
           className="rips top"
           src="../../public/img/rips/rips-top-blue.png"
-          alt=""
+          alt="riped paper top"
         />
         <div className="card">
         <img src={imageUrl} alt="" />
@@ -29,7 +29,7 @@ export default function RightProjectCard({
       <img
         className="rips bottom"
         src="../../public/img/rips/rips-bottom-blue.png"
-        alt=""
+        alt="riped paper bottom"
       />
     </section>
   );

@@ -162,32 +162,33 @@ export default function Home() {
           <h2>{t("WorkingOn")}</h2>
           <div className="project-content">
             <div className="project-teaser">
-              <Link to="/about">
-                <img src="../../public/img/projects/coilbot.png" alt="" />
+              <Link to="/project/0">
+                <img className="project-img" src="../../public/img/projects/coilbot.png" alt="screenshot of coilbot" />
               </Link>
               <p>{t("Coilbot")}</p>
             </div>
             <div className="project-teaser">
-              <Link to="/about">
-                <img
+              <Link to="/project/1">
+                <img className="project-img"
                   src="../../public/img/projects/moderkagens-mission.png"
-                  alt=""
+                  alt="screenshot of Moderkagens Mission"
                 />
               </Link>
               <p>{t("ModerkagensMissionTitle")}</p>
             </div>
             <div className="project-teaser">
-              <Link to="/about">
+              <Link to="/project/2">
                 <img
+                className="project-img"
                   src="../../public/img/projects/zero-buzz-brew.png"
-                  alt=""
+                  alt="screenshot of Zero buzz brew"
                 />
               </Link>
 
               <p>{t("ZeroBuzzBrewTitle")}</p>
             </div>
           </div>
-          <Link className="btn" to="/about">
+          <Link className="btn" to="/project">
            {t("AllProjects")}
           </Link>
         </section>
