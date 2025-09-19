@@ -24,7 +24,7 @@ export default function Home() {
             <img
               className="bh"
               src="../../public/img/blue-img/formed-images-bh.png"
-              alt=""
+              alt="Julie Valbjørn photo taken from Daniel Valbjørn"
             />
           </div>
           <div className="text-container">
