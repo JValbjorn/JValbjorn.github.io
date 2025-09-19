@@ -14,7 +14,7 @@ const { t } = useTranslation();
     <section className="left-project-card">
       <img
         className="rips top"
-        src="../../public/img/rips/top-rip.png"
+        src="../../img/rips/top-rip.png"
         alt="riped paper top"
       />
       <div className="card">
@@ -28,7 +28,7 @@ const { t } = useTranslation();
       </div>
       <img
         className="rips bottom"
-        src="../../public/img/rips/bottom-rip.png"
+        src="../../img/rips/bottom-rip.png"
         alt="riped paper bottom"
       />
     </section>

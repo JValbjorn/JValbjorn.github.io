@@ -9,7 +9,7 @@ const {t} = useTranslation();
       <div className="flower-container">
         <img
           className="flower"
-          src="../../public/img/doodles/flower-doodle.png"
+          src="../../img/doodles/flower-doodle.png"
           alt="doodled flower"
         />
       </div>
@@ -25,21 +25,21 @@ const {t} = useTranslation();
           <a href="https://www.facebook.com/julievalbjorn/">
             <img
               className="social-links"
-              src="../../public/img/logo/facebook.png"
+              src="../../img/logo/facebook.png"
               alt="doodled Facebook icon"
             />
           </a>
           <a href="https://www.instagram.com/_valbjorn_/">
             <img
               className="social-links"
-              src="../../public/img/logo/instagram.png"
+              src="../../img/logo/instagram.png"
               alt="doodled Instergram icon"
             />
           </a>
           <a href="https://www.linkedin.com/in/julie-v-15973b127/">
             <img
               className="social-links"
-              src="../../public/img/logo/linkedin.png"
+              src="../../img/logo/linkedin.png"
               alt="doodled Linkedin icon"
             />
           </a>

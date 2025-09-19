@@ -23,7 +23,7 @@ export default function Home() {
           <div className="img-container">
             <img
               className="bh"
-              src="../../public/img/blue-img/formed-images-bh.png"
+              src="../../img/blue-img/formed-images-bh.png"
               alt="Julie Valbjørn photo taken from Daniel Valbjørn"
             />
           </div>
@@ -46,101 +46,101 @@ export default function Home() {
           <div className=" skill-container">
             <img
               className="rips top"
-              src="../../public/img/rips/top-rip.png"
+              src="../../img/rips/top-rip.png"
               alt=""
             />
             <div className="skill-scroll">
               <div className=" marquee-container">
                 <div className="marquee">
                   <div className="skill">
-                    <img src="../../public/img/skills/html5.svg" alt="" />
+                    <img src="../../img/skills/html5.svg" alt="HTML5" />
                     <p>HTML5</p>
                   </div>
                   <div className="skill">
-                    <img src="../../public/img/skills/ae.png" alt="" />
+                    <img src="../../img/skills/ae.png" alt="Adobe Aftereffects" />
                     <p>AFTEREFFECTS</p>
                   </div>
                   <div className="skill">
-                    <img src="../../public/img/skills/css.svg" alt="" />
+                    <img src="../../img/skills/css.svg" alt="CSS3" />
                     <p>CCS</p>
                   </div>
                   <div className="skill">
-                    <img src="../../public/img/skills/dn.png" alt="" />
+                    <img src="../../img/skills/dn.png" alt="Adobe Dimension" />
                     <p>DIMENSION</p>
                   </div>
                   <div className="skill">
-                    <img src="../../public/img/skills/figma.svg" alt="" />
+                    <img src="../../img/skills/figma.svg" alt="Figma" />
                     <p>FIGMA</p>
                   </div>
                   <div className="skill">
-                    <img src="../../public/img/skills/ai.png" alt="" />
+                    <img src="../../img/skills/ai.png" alt="Adobe Illustrator" />
                     <p>ILLUSTRATOR</p>
                   </div>
                   <div className="skill">
-                    <img src="../../public/img/skills/github.svg" alt="" />
+                    <img src="../../img/skills/github.svg" alt="Github" />
                     <p>GITHUB</p>
                   </div>
                   <div className="skill">
-                    <img src="../../public/img/skills/ps.png" alt="" />
+                    <img src="../../img/skills/ps.png" alt="Adobe Photoshop" />
                     <p>PHOTOSHOP</p>
                   </div>
                   <div className="skill">
-                    <img src="../../public/img/skills/js.svg" alt="" />
+                    <img src="../../img/skills/js.svg" alt="JavaScript" />
                     <p>JAVASCRIPT</p>
                   </div>
                   <div className="skill">
-                    <img src="../../public/img/skills/ts.png" alt="" />
+                    <img src="../../img/skills/ts.png" alt="Typescript" />
                     <p>TYPESCRIPT</p>
                   </div>
                   <div className="skill">
-                    <img src="../../public/img/skills/react.svg" alt="" />
+                    <img src="../../img/skills/react.svg" alt="React" />
                     <p>REACT</p>
                   </div>
                 </div>
 
                 <div className="marquee">
                   <div className="skill">
-                    <img src="../../public/img/skills/html5.svg" alt="" />
+                    <img src="../../img/skills/html5.svg" alt="HTML5" />
                     <p>HTML5</p>
                   </div>
                   <div className="skill">
-                    <img src="../../public/img/skills/ae.png" alt="" />
+                    <img src="../../img/skills/ae.png" alt="Adobe Aftereffects" />
                     <p>AFTEREFFECTS</p>
                   </div>
                   <div className="skill">
-                    <img src="../../public/img/skills/css.svg" alt="" />
+                    <img src="../../img/skills/css.svg" alt="CSS3" />
                     <p>CCS</p>
                   </div>
                   <div className="skill">
-                    <img src="../../public/img/skills/dn.png" alt="" />
+                    <img src="../../img/skills/dn.png" alt="Adobe Dimension" />
                     <p>DIMENSION</p>
                   </div>
                   <div className="skill">
-                    <img src="../../public/img/skills/figma.svg" alt="" />
+                    <img src="../../img/skills/figma.svg" alt="Figma" />
                     <p>FIGMA</p>
                   </div>
                   <div className="skill">
-                    <img src="../../public/img/skills/ai.png" alt="" />
+                    <img src="../../img/skills/ai.png" alt="Adobe Illustrator" />
                     <p>ILLUSTRATOR</p>
                   </div>
                   <div className="skill">
-                    <img src="../../public/img/skills/github.svg" alt="" />
+                    <img src="../../img/skills/github.svg" alt="Github" />
                     <p>GITHUB</p>
                   </div>
                   <div className="skill">
-                    <img src="../../public/img/skills/ps.png" alt="" />
+                    <img src="../../img/skills/ps.png" alt="Adobe Photoshop" />
                     <p>PHOTOSHOP</p>
                   </div>
                   <div className="skill">
-                    <img src="../../public/img/skills/js.svg" alt="" />
+                    <img src="../../img/skills/js.svg" alt="JavaScript" />
                     <p>JAVASCRIPT</p>
                   </div>
                   <div className="skill">
-                    <img src="../../public/img/skills/ts.png" alt="" />
+                    <img src="../../img/skills/ts.png" alt="Typescript" />
                     <p>TYPESCRIPT</p>
                   </div>
                   <div className="skill">
-                    <img src="../../public/img/skills/react.svg" alt="" />
+                    <img src="../../img/skills/react.svg" alt="React" />
                     <p>REACT</p>
                   </div>
                 </div>
@@ -149,7 +149,7 @@ export default function Home() {
 
             <img
               className="rips bottom"
-              src="../../public/img/rips/bottom-rip.png"
+              src="../../img/rips/bottom-rip.png"
               alt=""
             />
           </div>
@@ -163,14 +163,14 @@ export default function Home() {
           <div className="project-content">
             <div className="project-teaser">
               <Link to="/project/0">
-                <img className="project-img" src="../../public/img/projects/coilbot.png" alt="screenshot of coilbot" />
+                <img className="project-img" src="../../img/projects/coilbot.png" alt="screenshot of coilbot" />
               </Link>
               <p>{t("Coilbot")}</p>
             </div>
             <div className="project-teaser">
               <Link to="/project/1">
                 <img className="project-img"
-                  src="../../public/img/projects/moderkagens-mission.png"
+                  src="../../img/projects/moderkagens-mission.png"
                   alt="screenshot of Moderkagens Mission"
                 />
               </Link>
@@ -180,7 +180,7 @@ export default function Home() {
               <Link to="/project/2">
                 <img
                 className="project-img"
-                  src="../../public/img/projects/zero-buzz-brew.png"
+                  src="../../img/projects/zero-buzz-brew.png"
                   alt="screenshot of Zero buzz brew"
                 />
               </Link>

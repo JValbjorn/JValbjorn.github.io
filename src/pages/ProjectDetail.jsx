@@ -29,7 +29,7 @@ export default function ProjectDetail() {
               {t("Github")} <a href={githubUrl}>GITHUB</a>
             </p>
             <div className="doodle-wrapper d6">
-              <img className="doodle" src="../../public/img/doodles/doodles-pen.png" alt="a small doodle of pen and ruler" />
+              <img className="doodle" src="../../img/doodles/doodles-pen.png" alt="a small doodle of pen and ruler" />
             </div>
             
             </div>

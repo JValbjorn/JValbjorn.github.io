@@ -27,7 +27,7 @@ export default function About() {
         
           <div className="img-container">
             <img
-              src="../../public/img/blue-img/formed-images-porto.png"
+              src="../../img/blue-img/formed-images-porto.png"
               alt="Photo of Julie Valbjørn taken of Maria Lange Pedersen"
             />
           </div>
@@ -44,54 +44,54 @@ export default function About() {
             
             <img
               className="rips top"
-              src="../../public/img/rips/top-rip.png"
+              src="../../img/rips/top-rip.png"
               alt="riped paper top"
             />
             <div className="skill-scroll">
               <div className=" marquee-container">
                 <div className="still-skills">
                   <div className="skill">
-                    <img src="../../public/img/skills/html5.svg" alt="HTML5" />
+                    <img src="../../img/skills/html5.svg" alt="HTML5" />
                     <p>HTML5</p>
                   </div>
                   <div className="skill">
-                    <img src="../../public/img/skills/ae.png" alt="Adobe Aftereffects" />
+                    <img src="../../img/skills/ae.png" alt="Adobe Aftereffects" />
                     <p>AFTEREFFECTS</p>
                   </div>
                   <div className="skill">
-                    <img src="../../public/img/skills/css.svg" alt="CSS3" />
+                    <img src="../../img/skills/css.svg" alt="CSS3" />
                     <p>CCS</p>
                   </div>
                   <div className="skill">
-                    <img src="../../public/img/skills/dn.png" alt="Adobe Dimension" />
+                    <img src="../../img/skills/dn.png" alt="Adobe Dimension" />
                     <p>DIMENSION</p>
                   </div>
                   <div className="skill">
-                    <img src="../../public/img/skills/figma.svg" alt="Figma" />
+                    <img src="../../img/skills/figma.svg" alt="Figma" />
                     <p>FIGMA</p>
                   </div>
                   <div className="skill">
-                    <img src="../../public/img/skills/ai.png" alt="Adobe Illustrator" />
+                    <img src="../../img/skills/ai.png" alt="Adobe Illustrator" />
                     <p>ILLUSTRATOR</p>
                   </div>
                   <div className="skill">
-                    <img src="../../public/img/skills/github.svg" alt="Github" />
+                    <img src="../../img/skills/github.svg" alt="Github" />
                     <p>GITHUB</p>
                   </div>
                   <div className="skill">
-                    <img src="../../public/img/skills/ps.png" alt="Adobe Photoshop" />
+                    <img src="../../img/skills/ps.png" alt="Adobe Photoshop" />
                     <p>PHOTOSHOP</p>
                   </div>
                   <div className="skill">
-                    <img src="../../public/img/skills/js.svg" alt="JavaScript" />
+                    <img src="../../img/skills/js.svg" alt="JavaScript" />
                     <p>JAVASCRIPT</p>
                   </div>
                   <div className="skill">
-                    <img src="../../public/img/skills/ts.png" alt="Typescript" />
+                    <img src="../../img/skills/ts.png" alt="Typescript" />
                     <p>TYPESCRIPT</p>
                   </div>
                   <div className="skill">
-                    <img src="../../public/img/skills/react.svg" alt="React" />
+                    <img src="../../img/skills/react.svg" alt="React" />
                     <p>REACT</p>
                   </div>
                 </div>
@@ -100,7 +100,7 @@ export default function About() {
 
             <img
               className="rips bottom"
-              src="../../public/img/rips/bottom-rip.png"
+              src="../../img/rips/bottom-rip.png"
               alt="riped paper bottom"
             />
           </div>
@@ -112,7 +112,7 @@ export default function About() {
          <div className="teaching">
 
          
-          <img src="../../public/img/blue-img/formed-images-teaching.png" alt="credit to instagram: shoebox.pink" />
+          <img src="../../img/blue-img/formed-images-teaching.png" alt="credit to instagram: shoebox.pink" />
           <p className="linebreaks">
             {t("Teaching")}
           </p>

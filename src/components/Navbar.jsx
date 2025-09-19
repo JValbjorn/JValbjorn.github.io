@@ -7,7 +7,7 @@ export default function Navbar() {
 
   return (
     <div className="navigation">
-      <Link to="/" ><img src="../../public/img/logo/logo-valbjorn.png" alt="logo: <Valbjørn>" /></Link>
+      <Link to="/" ><img src="../../img/logo/logo-valbjorn.png" alt="logo: <Valbjørn>" /></Link>
       
       <div className="nav-links">
         <nav>

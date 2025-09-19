@@ -19,7 +19,7 @@ export default function Contact() {
             <a className="mail" href="mailto:Julievalbjorn@live.dk">Julievalbjorn@live.dk</a>
             <h3>+45 22 85 95 44</h3>
             </div>
-            <img className="doodle d2" src="../../public/img/doodles/doodles-star.png" alt="doodle of a star in cowboyboots" />
+            <img className="doodle d2" src="../../img/doodles/doodles-star.png" alt="doodle of a star in cowboyboots" />
           </div>
         </div>
       </div>

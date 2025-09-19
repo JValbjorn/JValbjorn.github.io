@@ -50,13 +50,13 @@ export default function Projects() {
             <div className="left-project-card">
               <img
                 className="rips top"
-                src="../../public/img/rips/top-rip.png"
+                src="../../img/rips/top-rip.png"
                 alt="paper riped top"
               />
               <h2 className="comming-soon">{t("ComingSoon")}</h2>
               <img
                 className="rips bottom"
-                src="../../public/img/rips/bottom-rip.png"
+                src="../../img/rips/bottom-rip.png"
                 alt="paper riped bottom"
               />
             </div>
