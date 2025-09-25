@@ -64,7 +64,7 @@ p {
 
 /* //////////////////// Background //////////////////// */
 .background-content {
-  background: url("../../public/img/background/back-string.png") top/cover
+  background: url("../../img/background/back-string.png") top/cover
     no-repeat;
 
   min-width: 100vh;
