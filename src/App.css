@@ -469,10 +469,15 @@ article.rights p {
   padding: 3rem 0;
   white-space: nowrap;
   z-index: 2;
-  animation: scroll var(--duration, 30.8s) linear infinite;
-  animation-play-state: var(--play, running);
-  animation-direction: var(--direction, normal);
-  animation-delay: var(--delay, 0s);
+  height: 400px;
+  
+  animation: scroll var(--duration, 30s) linear infinite;
+}
+
+.nowrap {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
 }
 
 .marquee-container {
@@ -480,17 +485,18 @@ article.rights p {
   flex-direction: row !important;
   position: relative;
   width: 100%;
-  overflow: hidden !important;
+  overflow: hidden !important; 
+  
   --pause-on-hover: paused;
   --pause-on-click: paused;
 }
 
 @keyframes scroll {
-  0% {
-    transform: translateX(0%);
+  from {
+    transform: translateX(0);
   }
-  100% {
-    transform: translateX(-100%);
+  to {
+    transform: translateX(-50%);
   }
 }
 
@@ -783,4 +789,138 @@ article.rights p {
 
 .linebreaks {
   white-space: pre-line;
+}
+
+/* //////////////////// Responsive Breakpoints //////////////////// */
+
+/* Large screens (wider than 1600px) */
+@media (min-width: 1600px) {
+  .header-container {
+    padding: 10%;
+  }
+
+  .doodle-wrapper {
+    transform: scale(1.2);
+  }
+
+   /* Doodle repositioning */
+  .d1 { top: 10%; left: 5%; }
+  .d2 { top: 57%; left: 60%; }
+  .d3 { top: 20%; left: 30%; }
+  .d4 { top: 48%; left: 40%; }
+  .d5 { top: 25%; left: 90%; }
+  .d6 { top: 60%; left: 8%; }
+  .d7 { top:15%; left: 58%; }
+  .d8 { top: 65%; left: 85%; }
+}
+
+/* Tablets & small laptops (max 992px) */
+@media (max-width: 992px) {
+  .header-container {
+    flex-direction: column;
+    padding: 4rem 2rem;
+  }
+
+  article {
+    max-width: 80%;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .header-img-container {
+    width: 60%;
+    height: auto;
+  }
+
+  /* Doodle repositioning */
+  .d1 { top: 10%; left: 5%; }
+  .d2 { top: 60%; left: 60%; }
+  .d3 { top: 20%; left: 30%; }
+  .d4 { top: 40%; left: 50%; }
+  .d5 { top: 30%; left: 70%; }
+  .d6 { top: 70%; left: 10%; }
+  .d7 { top: 25%; left: 60%; }
+  .d8 { top: 70%; left: 80%; }
+}
+
+/* Tablets portrait (max 768px) */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .header-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .header-img-container {
+    width: 80%;
+    height: auto;
+  }
+
+  article {
+    max-width: 90%;
+  }
+
+  .doodle-wrapper {
+    animation: none;
+    transform: scale(0.8);
+  }
+
+  /* Reduce motion and clustering */
+  .d1, .d2, .d3, .d4, .d5, .d6, .d7, .d8 {
+    top: auto;
+    left: auto;
+    transform: none;
+  }
+}
+
+/* Mobile (max 480px) */
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .header-container {
+    flex-direction: column;
+    padding: 2rem 1rem;
+  }
+
+  article {
+    max-width: 95%;
+  }
+
+  .header-img-container {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Simplify doodles on mobile */
+  .doodle-wrapper {
+    display: none; /* hide for cleaner layout */
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .content, .content-project, .about-me-content {
+    flex-direction: column;
+    margin: 2rem 0;
+  }
+
+  .text-container, .text-content {
+    width: 100%;
+    padding: 1rem;
+  }
 }

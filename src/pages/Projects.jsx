@@ -42,9 +42,9 @@ export default function Projects() {
               projectLink="/project/2"
             />
             <RightProjectCard
-              imageUrl="../img/projects/no-img-yet.png"
-              header={t("MusicSyncTitle")}
-              body={t("MusicSyncTeaser")}
+              imageUrl="../img/projects/tov.svg"
+              header={t("theOverseersVaultTitle")}
+              body={t("theOverseersVaultDescription")}
               projectLink="/project/3"
             />
             <div className="left-project-card">
